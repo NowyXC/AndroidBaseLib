@@ -1,5 +1,7 @@
 package com.nowy.baselib.app
 
+import android.app.Application
+
 /**
  *
  * @Package:        com.nowy.baselib.app
@@ -12,3 +14,22 @@ package com.nowy.baselib.app
  * @UpdateRemark:   更新说明
  * @Version:        1.0
  */
+class BaseApp : Application(){
+    val TAG = "BaseApp"
+
+    override fun onCreate() {
+        super.onCreate()
+    }
+
+
+    override fun onLowMemory() {
+        super.onLowMemory()
+    }
+
+    override fun onTrimMemory(level: Int) {
+        super.onTrimMemory(level)
+    }
+
+
+
+}
