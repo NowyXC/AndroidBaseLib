@@ -22,6 +22,8 @@ class BaseApp : Application(){
     }
 
 
+
+
     override fun onLowMemory() {
         super.onLowMemory()
     }

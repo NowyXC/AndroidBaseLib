@@ -1,0 +1,18 @@
+ext{
+
+
+    android = [
+            compileSdkVersion: 28,
+            minSdkVersion    : 21,
+            targetSdkVersion : 28,
+            versionCode      : 1,
+            versionName      : "1.0"
+    ]
+
+    androidx = [
+        appcompat :"1.0.2",
+        core_ktx :"1.2.0-alpha01",
+        constraintlayout :"1.1.3",
+    ]
+
+}
